@@ -9,3 +9,9 @@ Pair with Target Sum
 Remove Duplicates from a sorted Array
 
 Squaring a sorted Array
+
+
+Sliding Window
+--------------
+
+Maximum Sum Subarray of Size K
