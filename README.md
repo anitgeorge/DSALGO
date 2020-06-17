@@ -15,3 +15,4 @@ Sliding Window
 --------------
 
 Maximum Sum Subarray of Size K
+Smallest Subarray with a given sum
