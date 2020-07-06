@@ -1,6 +1,12 @@
 # DSALGO
 # Repository for Data Structures and Algorithm problems
 
+Array
+-----
+
+ListToArray
+ArrayToList
+
 TwoPointers
 ------------
 
@@ -25,3 +31,4 @@ String
 ------
 
 Edit Distance | DL Distance
+
