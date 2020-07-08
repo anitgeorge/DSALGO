@@ -37,3 +37,4 @@ Dynamic Programming
 -------------------
 
 EqualSumSubSet
+SubsetSum

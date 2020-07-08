@@ -83,8 +83,8 @@ class EqualSumBUDP(int[] nums){
 
             if(dp[i-1][j]){
                dp[i][j] = dp[i-1][j];
-            } else if( sum >= nums[i]){
-               dp[i][j] = dp[i-1][sum - nums[i]];
+            } else if( j >= nums[i]){
+               dp[i][j] = dp[i-1][j - nums[i]];
             }
         }
     }
