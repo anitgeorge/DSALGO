@@ -36,3 +36,4 @@ Edit Distance | DL Distance
 Dynamic Programming
 -------------------
 
+EqualSumSubSet
