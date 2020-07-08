@@ -6,6 +6,7 @@ Array
 
 ListToArray
 ArrayToList
+3Sum
 
 TwoPointers
 ------------
