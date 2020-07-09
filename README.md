@@ -38,3 +38,7 @@ Dynamic Programming
 
 EqualSumSubSet
 SubsetSum
+
+BinaryTree
+----------
+Width Of a BinaryTree
