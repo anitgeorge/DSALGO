@@ -39,6 +39,7 @@ Dynamic Programming
 EqualSumSubSet
 SubsetSum
 Minimum Subset Sum Difference
+Count of Subset Sum
 
 BinaryTree
 ----------
