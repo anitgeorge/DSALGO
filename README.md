@@ -38,6 +38,8 @@ Edit Distance | DL Distance
 Dynamic Programming
 -------------------
 
+#Bounded Knapsack
+
 EqualSumSubSet
 
 SubsetSum
@@ -47,6 +49,10 @@ Minimum Subset Sum Difference
 Count of Subset Sum
 
 TargetSum
+
+#UnboundedKnapsack
+
+Knapsack
 
 BinaryTree
 ----------
