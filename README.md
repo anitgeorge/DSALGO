@@ -54,6 +54,8 @@ TargetSum
 
 Knapsack
 
+Rod Cutting
+
 BinaryTree
 ----------
 Width Of a BinaryTree
