@@ -5,7 +5,9 @@ Array
 -----
 
 ListToArray
+
 ArrayToList
+
 3Sum
 
 TwoPointers
@@ -37,16 +39,23 @@ Dynamic Programming
 -------------------
 
 EqualSumSubSet
+
 SubsetSum
+
 Minimum Subset Sum Difference
+
 Count of Subset Sum
+
 TargetSum
+
 BinaryTree
 ----------
 Width Of a BinaryTree
+
 Are two given trees the same
 
 Subset
 ------
 Find all subsets ( no duplicates )
+
 Find all subsets ( with duplicates )
