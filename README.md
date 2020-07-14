@@ -56,6 +56,8 @@ Knapsack
 
 Rod Cutting
 
+Coin Change
+
 BinaryTree
 ----------
 Width Of a BinaryTree
