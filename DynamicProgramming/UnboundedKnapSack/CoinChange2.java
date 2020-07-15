@@ -23,6 +23,6 @@ public class CoinChange2{
 				if( j >= coins[i] && coins[i][j - coins[i]] != Integer.MAX_VALUE)
 					dp[i][j] = Math.min(dp[i][j], dp[i][j - coins[i]] + 1);
 		}
-		return dp[coins.length - 1][sum];
+		return dp[coins.length - 1][sum] == Integer.MAX_VALUE ? -1 : dp[coins.length - 1][sum];
 	}
 }
