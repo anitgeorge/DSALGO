@@ -66,6 +66,8 @@ Ribbon Cut
 
 Fibonacci
 
+Count Stairs
+
 BinaryTree
 ----------
 Width Of a BinaryTree
