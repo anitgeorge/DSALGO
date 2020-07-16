@@ -68,6 +68,8 @@ Fibonacci
 
 Count Stairs
 
+Number Factors
+
 BinaryTree
 ----------
 Width Of a BinaryTree
