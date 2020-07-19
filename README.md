@@ -70,6 +70,8 @@ Count Stairs
 
 Number Factors
 
+Minimum Jumps to Reach the End
+
 BinaryTree
 ----------
 Width Of a BinaryTree
