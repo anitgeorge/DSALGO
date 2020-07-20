@@ -74,6 +74,8 @@ Minimum Jumps to Reach the End
 
 Minimum Jumps with fee
 
+House Thief
+
 BinaryTree
 ----------
 Width Of a BinaryTree
