@@ -91,3 +91,8 @@ Find all subsets ( with duplicates )
 Graph
 ------
 Topological Sort ( Course Schedule 2)
+
+LinkedList
+----------
+
+Remove all elements from a linked list of integers that have value val.
