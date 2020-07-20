@@ -72,6 +72,8 @@ Number Factors
 
 Minimum Jumps to Reach the End
 
+Minimum Jumps with fee
+
 BinaryTree
 ----------
 Width Of a BinaryTree
