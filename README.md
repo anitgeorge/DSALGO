@@ -76,6 +76,10 @@ Minimum Jumps with fee
 
 House Thief
 
+#PalindromicSequence
+
+Palindromic Subsequence
+
 BinaryTree
 ----------
 Width Of a BinaryTree
