@@ -105,6 +105,8 @@ PathSum in a binary tree
 
 Find All pathsum in a binary tree
 
+Sum of Path Numbers
+
 Subset
 ------
 Find all subsets ( no duplicates )
