@@ -103,6 +103,8 @@ Left View Of a Binary Tree
 
 PathSum in a binary tree
 
+Find All pathsum in a binary tree
+
 Subset
 ------
 Find all subsets ( no duplicates )
