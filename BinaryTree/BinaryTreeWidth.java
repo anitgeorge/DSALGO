@@ -47,9 +47,6 @@ class BinaryTreeWidth {
 
             max = Math.max(max, end - start + 1);
         }
-
-
-
         return max == Integer.MIN_VALUE? 0 : max;
     }
 }
