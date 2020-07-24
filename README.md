@@ -93,6 +93,8 @@ Level Order Traversal
 
 Reverse Level Order Traversal
 
+ZIgzag Traversal
+
 Subset
 ------
 Find all subsets ( no duplicates )
