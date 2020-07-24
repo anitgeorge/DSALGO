@@ -107,6 +107,8 @@ Find All pathsum in a binary tree
 
 Sum of Path Numbers
 
+Path with given Sequence
+
 Subset
 ------
 Find all subsets ( no duplicates )
