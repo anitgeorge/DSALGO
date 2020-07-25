@@ -111,6 +111,8 @@ Path with given Sequence
 
 Find Lowest Common Ancestor
 
+Count all paths with a given sum
+
 Subset
 ------
 Find all subsets ( no duplicates )
