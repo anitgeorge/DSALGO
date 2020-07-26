@@ -39,6 +39,6 @@ class Solution {
 		   list.add(root);
 	       }
         }
-	return list
+	return list;
     }
 }
