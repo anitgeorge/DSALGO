@@ -146,3 +146,5 @@ Binary Search Tree
 ------------------
 
 Search Insert Delete
+
+All BST for a given number
