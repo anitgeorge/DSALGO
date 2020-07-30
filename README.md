@@ -89,6 +89,11 @@ Palindromic Subsequence
 Palindromic Substring
 
 
+#StringDistance
+
+Edit Distance
+
+
 BinaryTree
 ----------
 Width Of a BinaryTree
