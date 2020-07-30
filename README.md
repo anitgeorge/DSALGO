@@ -14,6 +14,8 @@ Buy And Sell stocks with cool down
 
 Number Range
 
+Binary Search
+
 TwoPointers
 ------------
 
