@@ -16,6 +16,11 @@ Number Range
 
 Binary Search
 
+#Sort
+
+Merge Sort
+
+
 TwoPointers
 ------------
 
