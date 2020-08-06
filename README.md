@@ -20,6 +20,7 @@ Binary Search
 
 Merge Sort
 
+Bubble Sort
 
 TwoPointers
 ------------
