@@ -14,87 +14,59 @@
  * }
  */
 class Solution {
-
+    
     class Pair{
-
-        TreeNode node;
-        int index;
-        Pair(TreeNode root, int val){
-            node = root;
-            index = val;
+        
+        int nodeVal;
+        int vIndex;
+        Pair(int val, int index){
+            nodeVal  = val;
+            vIndex   = index;
         }
     }
-
+    
     public List<List<Integer>> verticalTraversal(TreeNode root) {
-
+        
         if(root == null)
-            return null;
-        Map<Integer, List<Integer>> map = new HashMap<>();
-        traverse(root, map);
-        PriorityQueue<Map.Entry<Integer, List<Integer>>> pq = new PriorityQueue<>(
+            return new ArrayList<>();
+        Map<Integer, PriorityQueue<Pair>> map = new HashMap<>();
+        traverse(root,0, 0, map);
+        PriorityQueue<Map.Entry<Integer, PriorityQueue<Pair>>> queue =
+            new PriorityQueue<Map.Entry<Integer, PriorityQueue<Pair>>>(
            (a, b) -> a.getKey() - b.getKey()
         );
-        pq.addAll(map.entrySet());
+        queue.addAll(map.entrySet());
         List<List<Integer>> result = new ArrayList<>();
-        while(!pq.isEmpty()){
-
-            result.add(pq.poll().getValue());
+        while(!queue.isEmpty()){
+            
+            PriorityQueue<Pair> q = queue.poll().getValue();
+            List<Integer> list = new ArrayList<>();
+            while(!q.isEmpty()){
+                
+                list.add(q.poll().nodeVal);
+            }
+            result.add(list);
         }
-
+            
         return result;
+        
     }
 
-    private void traverse(TreeNode root, Map<Integer, List<Integer>> map){
-
+    private void traverse(TreeNode root, int index, int level
+	                 , Map<Integer, PriorityQueue<Pair>> map){
+        
+     
         if(root == null)
             return;
-        Queue<Pair> queue = new LinkedList<>();
-        queue.offer(new Pair(root, 0));
-        Map<Integer, Map<Integer, PriorityQueue<Integer>>> newMap = new HashMap<>();
-        int level = 0;
-        while(!queue.isEmpty()){
-
-            int size = queue.size();
-            level++;
-            for(int i = 0; i < size; i++){
-
-                Pair pair     = queue.poll();
-                TreeNode node = pair.node;
-                int index     = pair.index;
-                if(newMap.get(index) == null){
-                       Map<Integer, PriorityQueue<Integer>> tmp = new HashMap<>();
-                       newMap.put(index, tmp);
-                }
-                if(newMap.get(index).get(level) == null){
-
-                    newMap.get(index).put(level, new PriorityQueue<>());
-                }
-                newMap.get(index).get(level).offer(node.val);
-                if(node.left != null)
-                    queue.offer(new Pair(node.left, index - 1));
-                if(node.right != null)
-                    queue.offer(new Pair(node.right, index + 1));
-            }
-        }
-
-        for(Map.Entry<Integer, Map<Integer, PriorityQueue<Integer>>> entry : newMap.entrySet()){
-
-            if(map.get(entry.getKey()) == null)
-                map.put(entry.getKey(), new ArrayList<>());
-
-            PriorityQueue<Map.Entry<Integer, PriorityQueue<Integer>>> newQueue =
-                                  new PriorityQueue<Map.Entry<Integer, PriorityQueue<Integer>>>(
-              (a, b) -> a.getKey() - b.getKey()
+        if(map.get(index) == null){
+            
+            PriorityQueue<Pair> pq = new PriorityQueue<Pair>(
+              (a, b) -> a.vIndex == b.vIndex ? a.nodeVal - b.nodeVal : a.vIndex - b.vIndex
             );
-            newQueue.addAll(entry.getValue().entrySet());
-            while(!newQueue.isEmpty()){
-                Map.Entry<Integer, PriorityQueue<Integer>> e = newQueue.poll();
-                PriorityQueue<Integer> newPq = e.getValue();
-                while(!newPq.isEmpty()){
-
-                    map.get(entry.getKey()).add(newPq.poll());
-                }
-            }
+            map.put(index, pq);
         }
+        map.get(index).offer(new Pair(root.val, level));
+        traverse(root.left, index - 1, level + 1, map);
+        traverse(root.right, index + 1, level +1, map);
     }
 }
