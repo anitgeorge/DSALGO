@@ -22,6 +22,8 @@ Merge Sort
 
 Bubble Sort
 
+Quick Sort
+
 TwoPointers
 ------------
 
