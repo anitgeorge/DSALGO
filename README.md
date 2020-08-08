@@ -171,3 +171,5 @@ Binary Search Tree
 Search Insert Delete
 
 All BST for a given number
+
+Generate a BST from a sorted Array
