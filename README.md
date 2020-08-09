@@ -150,6 +150,8 @@ AllTaskScedulingOrders
 
 Alien Dictionary
 
+Connected Components
+
 LinkedList
 ----------
 
@@ -172,4 +174,4 @@ Search Insert Delete
 
 All BST for a given number
 
-Generate a BST from a sorted Array
+aenerate a BST from a sorted Array
