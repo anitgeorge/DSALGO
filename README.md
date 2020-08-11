@@ -152,6 +152,22 @@ Alien Dictionary
 
 Connected Components
 
+#BFS
+
+BFS with Adj Matrix
+
+BFS with Adj List
+
+BFS with weights
+
+#DFS
+
+DFS with Adj Matrix
+
+DFS with ADJ list
+
+DFS with Weights
+
 LinkedList
 ----------
 
