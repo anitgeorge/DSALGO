@@ -134,7 +134,7 @@ Count all paths with a given sum
 
 Vertical Order Traversal
 
-Subset
+#Subset
 ------
 Find all subsets ( no duplicates )
 
@@ -142,7 +142,7 @@ Find all subsets ( with duplicates )
 
 Pemutations changing the case
 
-Graph
+#Graph
 ------
 Topological Sort ( Course Schedule 2)
 
@@ -151,6 +151,8 @@ AllTaskScedulingOrders
 Alien Dictionary
 
 Connected Components
+
+Eulerian Path
 
 #BFS
 
