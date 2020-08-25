@@ -154,6 +154,8 @@ Connected Components
 
 Eulerian Path
 
+MaxFlow
+
 #BFS
 
 BFS with Adj Matrix
