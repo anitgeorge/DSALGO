@@ -156,6 +156,8 @@ Eulerian Path
 
 MaxFlow
 
+Union Find
+
 #BFS
 
 BFS with Adj Matrix
