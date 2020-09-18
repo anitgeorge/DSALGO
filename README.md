@@ -197,3 +197,7 @@ Search Insert Delete
 All BST for a given number
 
 aenerate a BST from a sorted Array
+
+# Fenwick Tree
+
+Impl of fenwick tree Data Structure
